@@ -7,18 +7,6 @@
 #     @ksanchez_cld on twitter            #  
 # **************************************** 
 
-'''
-1- Escannerar red en busca de ip
-2- Conectarse a Servicio SSH
-3- Verificar el Hostname y Maccadd
-4- Verificar existencia de carpetas a resguardar.
-5- Verificar carpeta de destino.
-6- Transeferir los datos.
-7- Comprimirlos en el disco local.
-8- Colocar Password.
-9- Eliminar la carpeta sin comprimir una vez complete.
-10- Enviar un correo de notificacion.
-'''
 import paramiko
 import os
 import subprocess
